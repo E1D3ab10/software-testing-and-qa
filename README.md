@@ -3,3 +3,4 @@
 Домашние задания по курсу.
 
 - [Лекция 1. Как я бы изучал Telegram без документации](homework/01-telegram.md)
+- [Лекция 2. Истории пользователя для Telegram](homework/02-user-stories.md)
