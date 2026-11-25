@@ -1,0 +1,14 @@
+WARNING: The directory '/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: python -m pip install --upgrade pip
+..........................xxxxxx........................................ [ 59%]
+..................................................                       [100%]
+=========================== short test summary info ============================
+XFAIL tests/test_known_bugs.py::test_null_status - BUG-001: null status gives 500 instead of 400
+XFAIL tests/test_known_bugs.py::test_malformed_json[/orders] - BUG-002: malformed JSON gives 500 instead of 400
+XFAIL tests/test_known_bugs.py::test_malformed_json[/seminar/workflow/orders] - BUG-002: malformed JSON gives 500 instead of 400
+XFAIL tests/test_known_bugs.py::test_premature_workflow_command[start-cooking] - BUG-003: invalid workflow transition gives 500 instead of 409
+XFAIL tests/test_known_bugs.py::test_premature_workflow_command[assign-courier] - BUG-003: invalid workflow transition gives 500 instead of 409
+XFAIL tests/test_known_bugs.py::test_premature_workflow_command[deliver] - BUG-003: invalid workflow transition gives 500 instead of 409
+116 passed, 6 xfailed in 2.71s

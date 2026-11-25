@@ -2,6 +2,7 @@
 
 Домашние задания по курсу.
 
-- [Лекция 1. Как я бы изучал Telegram без документации](homework/01-telegram.md)
-- [Лекция 2. Истории пользователя для Telegram](homework/02-user-stories.md)
-- [Лекция 3. Чек-лист выбора ингредиентов пиццы](homework/03-pizza-checklist.md)
+- [Домашнее задание 1. Как я бы изучал Telegram без документации](homework/01-telegram.md)
+- [Домашнее задание 2. Истории пользователя для Telegram](homework/02-user-stories.md)
+- [Домашнее задание 3. Чек-лист выбора ингредиентов пиццы](homework/03-pizza-checklist.md)
+- [Домашнее задание 4. API-автотесты Pizza Delivery](homework/04-api-tests/)

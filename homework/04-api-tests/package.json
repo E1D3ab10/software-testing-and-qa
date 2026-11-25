@@ -1,0 +1,15 @@
+{
+  "name": "pizza-api-tests-report",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "report": "allure generate allure-results --clean -o allure-report",
+    "report:open": "allure open allure-report",
+    "report:single": "allure generate allure-results --clean --single-file -o allure-report-single",
+    "screenshot": "node scripts/screenshot.mjs"
+  },
+  "devDependencies": {
+    "allure-commandline": "2.46.2",
+    "playwright": "1.65.1"
+  }
+}

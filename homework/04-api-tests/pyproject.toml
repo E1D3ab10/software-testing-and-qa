@@ -1,0 +1,12 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers --alluredir=allure-results --clean-alluredir"
+markers = [
+  "positive: valid requests and business flows",
+  "negative: invalid requests and forbidden operations",
+  "known_bug: reproducible defects of the pinned application revision",
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["client", "config", "data", "helpers"]

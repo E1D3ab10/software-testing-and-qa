@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-25",
+  "timezone": "Europe/Moscow",
+  "application": {
+    "repository": "https://github.com/NZRV-88/TestProject.git",
+    "revision": "a43ef6f79f6fcbb27b6710fd61cfa756ee4ee2d0"
+  },
+  "python": "3.12.16",
+  "also_verified_python": "3.14.7",
+  "command": "python -m pytest -q --junitxml=docs/junit.xml",
+  "pytest_exit_code": 0,
+  "passed": 116,
+  "xfailed": 6,
+  "failed": 0,
+  "total": 122,
+  "allure": {
+    "failed": 0,
+    "broken": 0,
+    "skipped": 6,
+    "passed": 116,
+    "unknown": 0,
+    "total": 122
+  },
+  "time": {
+    "start": 1795628489438,
+    "stop": 1795628492110,
+    "duration": 2672,
+    "minDuration": 2,
+    "maxDuration": 85,
+    "sumDuration": 1862
+  },
+  "known_bugs": {
+    "command": "python -m pytest -m known_bug --runxfail",
+    "exit_code": 1,
+    "failed": 6
+  },
+  "github_actions_executed": false
+}
